@@ -1,0 +1,178 @@
+<!-- <!DOCTYPE HTML> -->
+<html>
+  <head>
+    <title>Title of the document</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/dropdown.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slideshow.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+    <!-- font -->
+    <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'> -->
+  </head>
+  <body>
+    <nav class="aside">
+      <h1>Chi sono</h1>
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>JavaScript</p>
+      <p>PHP</p>
+
+      <h1>Follow me</h1>
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>JavaScript</p>
+      <p>PHP</p>
+
+      <h1>News</h1>
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>JavaScript</p>
+      <p>PHP</p>
+    </nav>
+
+    <header class="header-menu">
+      <nav>
+        <ul>
+          <li><img src="images/logo.png" width="100px"/></li>
+          <li><img src="images/logo.png" width="100px"/></li>
+          <li><h1><b>A</b>ttraverso il <b>M</b>ondo</h1></li>
+          <li><img src="images/facebook.png" width="100px"/></li>
+          <li><img src="images/instagram.png" width="100px"/></li>
+        </ul>
+      </nav>
+
+      <hr>
+
+      <div class="dropdown">
+        <button class="dropbtn breadcrum">Dropdown</button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#" class="breadcrum">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+
+<!--       <nav>
+        <ul>
+          <li>Menu item</li>
+          <li>Menu item</li>
+          <li>Menu item</li>
+        </ul>
+      </nav> -->
+    </header>
+
+    <!--hovering over the images will pause the slideshow -->
+
+    <div class="slideshow">
+      <div class="slideshow-container slide">
+        <img src="images/pic2.jpg"/>
+        <img src="images/pic2.jpg"/>
+        <img src="images/pic3.jpg"/>
+        <img src="images/pic3.jpg"/>
+      </div>
+      <!-- http://www.sitepoint.com/you-dont-need-javascript-for-that -->
+    </div>
+
+    <section>
+      <article>
+        <header>
+          <h2>Frase Voltaire.</h2>
+          <small>Voltaire</small>
+        </header>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article>
+        <header>
+          <h2>Arts & Culture</h2>
+          <p>Discover the best in art, literature, music, and popular culture from around the world.</p>
+        </header>
+
+        <div class="row"> 
+          <div class="column">
+            <img src="images/pic1.jpg"/>
+            <img src="images/pic2.jpg"/>
+            <img src="images/pic3.jpg"/>
+          </div>
+          <div class="column">
+            <img src="images/pic2.jpg"/>
+            <img src="images/pic3.jpg"/>
+            <img src="images/pic4.jpg"/>
+          </div>
+          <div class="column">
+            <img src="images/pic1.jpg"/>
+            <img src="images/pic2.jpg"/>
+            <img src="images/pic3.jpg"/>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <h2>NORVEGIA</h2>
+      <article>
+        <header>
+          <h1>Isole Lofoten.</h1>
+        </header>
+        
+        <img src="images/pic1.jpg"/>
+        <img src="images/pic2.jpg"/>
+        <img src="images/pic1.jpg"/>
+      </article>
+      <article>
+        <header>
+          <h1>Bergen.</h1>
+        </header>
+        <img src="images/pic1.jpg"/>
+        <img src="images/pic2.jpg"/>
+        <img src="images/pic1.jpg"/>
+      </article>
+
+      <button type="button">Guarda tutte le foto</button>
+    </section>
+
+    <section>
+      <header>
+        <h2>Se la tua curiosità non finisce qui</h2>
+
+         <form method="post" action="">
+          <span>Email</span></br>
+              <input type="text" name="email" class="inputObject"></br>
+          <span>Soggetto</span></br>
+              <input type="text" name="subject" class="inputObject"></br>
+              <span>Contenuto</span></br>
+              <textarea name="content" class="inputContent"></textarea></br>
+          </form> 
+
+        <button type="button">Scrivimi + </button>
+      </header>
+    </section>
+
+    <footer>
+      <h1>&copy;  Attraverso il mondo</h1>
+      <h2>con Sara</h2>
+    </footer>
+  </body>
+</html>

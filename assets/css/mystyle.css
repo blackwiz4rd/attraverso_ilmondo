@@ -3,7 +3,7 @@ html {
 }
 body {
       margin: 0 auto;
-      margin-right: 20%;
+      /*margin-right: 20%;*/
       font-family: 'Karla';
 }
 
@@ -12,70 +12,89 @@ body {
       padding-top: 20px;
 }
 */
-header nav img, header nav{
-      vertical-align: middle;
+
+/*header.header-menu {
+      position: fixed;
+      background-color:#eee;
+      z-index: 1000;
+}*/
+
+header nav img{
+      /**/
+      margin-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
 }
+
+.icon{
+      float:left;
+}
+
+.social{
+      float: right;
+}
+
 
 header nav h1{
       font-size: 35px;
 }
-
+/*
 header {
       margin: 0 auto;
+}*/
+
+hr {
+      background-color: #1a53ff; 
+      height: 1px; 
+      border: 0;
 }
 
 .header-menu, footer {
       width: 100%;
-      text-align: center;
+      /*text-align: center;*/
 }
-.header-menu {
-      box-shadow: 0 0 2px 4px rgba(214, 214, 214, 0.5);
-}
+/*.header-menu {
+     box-shadow: 0 0 2px 0.5px ;
+}*/
 
-nav ul {
-      text-align: center;
-      margin: auto;
-}
-
-nav ul li {
-      display: inline-block;
-      padding: 0 10px;
-}
-
-nav {
-      /*flex: 0.4;*/
-      padding-left: 15px;
-      border-left: 1px solid #666;
+nav b{
+      color: #1a53ff;
 }
 
 section {
       /*background: #ccc;*/
-/*      box-shadow: 0 0 2px 1px rgba(186, 208, 244, 0.5);*/
-      margin-left: 40px;
+/*      box-shadow: 0 0 0px 0px rgba(186, 208, 244, 0.5);*/
+      /*margin-left: 40px;
+      margin-right: 40px;*/
       /*margin-right: 20%;*/
       padding-top:10px;
-      box-shadow: 0 0 2px 4px rgba(214, 214, 214, 0.5);
+      /*box-shadow: 0 0 2px 4px rgba(214, 214, 214, 0.5);*/
+
+      text-align: center;
+      /*padding: 30px 40px;*/
+      margin-top: 10px;
 }
 
-nav.aside{
-      position: fixed;
+/*section.grid {
+      margin-left: 0px;
+      margin-right: 0px;
+      padding: 10px 0px;
+      box-shadow: 0 0 0px 0px rgba(214, 214, 214, 0.5);
+}*/
+
+/*nav.aside{
+      position: absolute;
       right: 0;
-      background: rgba(16, 66, 67, 0.3);
+      background: #000;
       color:white;
       top: 0;
       height: 100%;
       width:18%;
-      /*top: 50%;
+      margin-top: 525px;
+     /* top: 50%;
       width: 8em;
-      margin-top: -2.5em;*/
-}
-
-section{
-      text-align: center;
-      padding: 30px 40px;
-      margin-top: 10px;
-}
-
+      margin-top: -2.5em;
+}*/
 section img{
       width:30%;
       transition: transform .5s;
@@ -95,19 +114,19 @@ section.grid img {
       width:100%;
 }
 
-section button {
+footer button, section button {
       margin-top: 40px;
 }
 
-button {
+footer button, section button {
       width: 250px;
       height: 50px;
       border: none;
       color: #fff;
-      background-color: #aaaaaa;
+      /*background-color: #aaaaaa;*/
 }
 
-form{
+/* form{
       margin-top: 3%;
 }
 form span{
@@ -124,12 +143,19 @@ form span{
 .inputObject{
       height: 40px;
 }
-
-button:hover {
+*/
+      
+footer button:hover, section button:hover {
       background-color: #bbbbbb;
       cursor: hand;
 }
+
 footer {
       padding: 20px 30px;
       background: #aaaaaa;
+}
+
+@media screen and (max-width: 935px) {
+      nav.aside {
+        display: none;  }
 }

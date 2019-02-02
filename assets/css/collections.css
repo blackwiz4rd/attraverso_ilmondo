@@ -1,0 +1,28 @@
+section.collections article {
+	display: inline-block;
+	text-align: left;
+	margin-left: 40px;
+}
+
+section.collections article header{
+	font-weight: bold;
+}
+
+section.collections article img {
+	width: 123px;
+	height: 123px;
+	padding-bottom: 4px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+section article img.collections_img1{
+	width: 250px;
+	height: 250px;
+	/*margin-top: 75%;  4:3 aspect ratio */
+	float:left;
+}
+
+section article img.collections_img2{
+	float: left;
+}

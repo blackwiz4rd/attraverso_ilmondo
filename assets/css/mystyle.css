@@ -1,10 +1,11 @@
-html {
+/*html {
       margin: 0 auto;
-}
+}*/
 body {
-      margin: 0 auto;
+      /*margin: 0 auto;*/
       /*margin-right: 20%;*/
       font-family: 'Karla';
+
 }
 
 /*header nav{
@@ -19,45 +20,70 @@ body {
       z-index: 1000;
 }*/
 
-header nav img{
-      /**/
+header {
       margin-top: 10px;
-      padding-left: 10px;
-      padding-right: 10px;
 }
 
-.icon{
+header nav{
+      align-items : center;
+}
+
+header nav img{
+      /**/
+      padding-left: 40px;
+      padding-right: 40px;
+}
+
+/*.icon{
       float:left;
+      margin-top: 5px;
+      height: 11%;
+      width: 9%;
+}
+
+header nav .icon {
+      height: 10%;
+      width: 6%;
+}*/
+
+.logo{
+      float: left;
+      height: 50px;
+
 }
 
 .social{
       float: right;
+      height: 50px;
 }
-
 
 header nav h1{
-      font-size: 35px;
+      font-size: 45px;
 }
+
 /*
 header {
       margin: 0 auto;
 }*/
 
 hr {
-      background-color: #1a53ff; 
-      height: 1px; 
+      /*background-color: #1a53ff; */
+      box-shadow: 0 0 10px 0.5px #1a53ff;
+      height: 2px; 
       border: 0;
 }
 
 .header-menu, footer {
       width: 100%;
-      /*text-align: center;*/
+      text-align: center;
+      /*font-family: 'Fira Sans Condensed', sans-serif;*/
+      font-family: 'Comfortaa', cursive;
 }
 /*.header-menu {
      box-shadow: 0 0 2px 0.5px ;
 }*/
 
-nav b{
+nav b, footer b {
       color: #1a53ff;
 }
 
@@ -95,6 +121,7 @@ section {
       width: 8em;
       margin-top: -2.5em;
 }*/
+
 section img{
       width:30%;
       transition: transform .5s;
@@ -114,15 +141,28 @@ section.grid img {
       width:100%;
 }
 
-footer button, section button {
+section .grid h2{
+      font-size:30px;
+}
+
+footer button, section button, .slideshow button {
       margin-top: 40px;
 }
 
-footer button, section button {
-      width: 250px;
-      height: 50px;
+footer button, section button, .slideshow button {
+      width: 20vw;
+      height: 5vw;
       border: none;
       color: #fff;
+      background-color: #ffcccc;
+      /*background-color: #aaaaaa;*/
+}
+
+section.explore button {
+      border-radius: 10px;
+      border: 2px solid green; /* Green */
+      margin-left: 3vw;
+      margin-right: 3vw;
       /*background-color: #aaaaaa;*/
 }
 
@@ -145,17 +185,18 @@ form span{
 }
 */
       
-footer button:hover, section button:hover {
-      background-color: #bbbbbb;
+footer button:hover, section button:hover, .slideshow button:hover {
+      background-color: #ff77bb;
       cursor: hand;
 }
 
-footer {
+/*footer {
       padding: 20px 30px;
       background: #aaaaaa;
-}
+}*/
 
 @media screen and (max-width: 935px) {
       nav.aside {
-        display: none;  }
+        display: none;  
+      }
 }

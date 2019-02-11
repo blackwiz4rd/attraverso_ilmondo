@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="Attraverso il Mondo">
+	<dc:title>
+		 Mercato bolognese
+	</dc:title>
+	<dc:creator>
+		 Sara Negro
+	</dc:creator>
+	<dc:date>
+		21/12/2018
+	</dc:date>
+	<dc:subject>
+		Mercato a Bologna
+	</dc:subject>
+	<dc:description>
+		Dialogo tra compaesani al mercato di Bologna nel periodo natalizio di dicembre 2018
+	</dc:description>
+	<dc:language>
+		 it
+	</dc:language>
+	<dc:publisher>
+		Sara Negro
+	</dc:publisher>
+	 <dc:type>
+	 	immagine
+	 </dc:type>
+	 <dc:format>
+	 	.jpg
+	 </dc:format>
+</collezione>

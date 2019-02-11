@@ -1,14 +1,18 @@
+.grid img {
+      width:100%;
+}
+
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: flex; /*contenitore flessibile (in larghezza, altezza) per elementi contenuti in esso*/
+  flex-wrap: wrap; /*raccoglie elementi*/
+  justify-content: center; /*allinea immagini al centro del contenitore flessibile*/
   padding: 0 4px;
   margin: auto;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
-  flex: 30%;
+  flex: 30%; /*imposta larghezza colonna*/
   max-width: 30%;
   padding: 0 15px;
 }
@@ -20,6 +24,7 @@
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
+/*reimposta larghezze quando colonna piccola*/
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;

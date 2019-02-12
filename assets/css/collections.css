@@ -15,7 +15,7 @@ section.collections article img {
 	padding-bottom: 0.3vw;
 	padding-left: 0.2vw;
 	padding-right: 0.2vw;
-	object-fit: cover; /*makes image don't look stretched*/
+	object-fit: cover; /*immagini non sono stretchate*/
 }
 
 section article img.collections_img1{

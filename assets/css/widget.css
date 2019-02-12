@@ -1,0 +1,19 @@
+section article.widget2 img{
+	width: 100px;
+}
+
+section article.widget1{
+	float: left;
+}
+
+section article.widget2{
+	float: right;
+}
+
+section article.widget1 iframe {
+	width: 220px;
+}
+
+section article.widget1 header, section article.widget2 header{
+	margin-bottom: 10px;
+}

@@ -1,19 +1,5 @@
 * {box-sizing: border-box;}
 
-/* WIDGET AND RIGHT IMAGE*/
-section.explore article iframe {
-  width:235px;
-  height: 150px; 
-  border: none;
-  float: left;
-}
-section.explore a img{
-  width: 8%;
-  float: right;
-  padding-right: 10px;
-}
-/* END WIDGET AND RIGHT IMAGE*/
-
 section.explore .container {
   position: relative;
   width: 50%;
@@ -29,13 +15,13 @@ section.explore .image {
 }
 
 section.explore .container .overlay {
-  position: absolute; 
+  position: absolute;
   bottom: 0; 
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1; 
   width: 100%;
   transition: .2s ease;
-  opacity:0;
+  opacity: 0;
   color: white;
   font-size: 20px;
   padding: 20px;

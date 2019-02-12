@@ -4,32 +4,21 @@
 .slideshow {
   margin: 0 auto;
   overflow: hidden;
-  position: relative; /*per avere il testo al centro dell'immagine*/
+  position: relative;
 }
 
-.slideshow, .slideshow img, #opacity {
+.slideshow, .slideshow img {
   width: 100vw; /*vw = viewport, ció che vede l'utente sullo schermo*/
-}
-
-/*imposta l'opacita con colore nero per avere testo piu risaltante, 
-lo z-index permette di andare sopra tutti gli elementi in ordine di esposizione*/
-#opacity{
-  background-color: rgba(214, 214, 214, 0.5);
-  z-index: 999;
 }
 
 .slideshow-container {
   width: 400vw; /*100*4*/
-  font-size: 0;
   transition: 1s ease;
   height: 500px;
 }
 
 .slideshow img {
-  height: auto;
   display: inline-block;
-  font-size: 16px;
-  text-align: center;
   object-fit: cover; /*makes image don't look stretched*/
 }
 
@@ -100,25 +89,21 @@ lo z-index permette di andare sopra tutti gli elementi in ordine di esposizione*
   text-align: center;
 }
 
-/* Bottom left text */
 .bottom-left {
   bottom: 8px;
   left: 16px;
 }
 
-/* Top left text */
 .top-left {
   top: 8px;
   left: 16px;
 }
 
-/* Top right text */
 .top-right {
   top: 8px;
   right: 16px;
 }
 
-/* Bottom right text */
 .bottom-right {
   bottom: 8px;
   right: 16px;

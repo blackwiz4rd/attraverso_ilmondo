@@ -12,6 +12,12 @@ section article.widget2{
 
 section article.widget1 iframe {
 	width: 220px;
+	height: 150px;
+}
+
+section article.widget2 img {
+	height: 150px;
+	width: 150px;
 }
 
 section article.widget1 header, section article.widget2 header{
